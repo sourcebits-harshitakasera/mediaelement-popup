@@ -8,13 +8,12 @@ __License__   - GPLv2/MIT
 
 # Introduction
 
-MediaElement-Popup is a <code>MediaElement.js</code> plugin that lets you add a __Popup Option__ in the control bar of MediaElement Player. This plugin also defines a default callback function that will be called everytime the popup button is clicked. Also reference to the mediaelement object is passed as an argument in callback for further processing.The image on the popup button ,text and the callback function all are configurable.  
+MediaElement-Popup is a <code>MediaElement.js</code> plugin that lets you add a __Popup Option__ in the control bar of MediaElement Player. This plugin also defines a default callback function that will be called everytime the popup button is clicked. Also a reference to the mediaelement object is passed as an argument to the callback function for further processing. The image on the popup button, _alt_ text and the callback function are all configurable.  
 
 # Demo
 [Click here](http://jsfiddle.net/hkasera/rKtP3/4/) to see a working demo of the plugin.
 
-<code>* Note</code> The default callback function in the demo shows up the video in jQuery modal dialog ,hence if jQueryUI is not included the default callback will not do anything however callback can still be overriden.
-
+<code>* Note</code> By default, the currently played video will be shown in a Jquery UI diaglog box upon clicking the popup button. This default behavior depends on JqueryUI library. 
 # Credits
 
 My Employer - [Sourcebits Inc.](http://www.sourcebits.com)
