@@ -8,7 +8,7 @@ __License__   - GPLv2/MIT
 
 # Introduction
 
-MediaElement-Popup is a <code>MediaElement.js</code> plugin that lets you add a __Popup Option__ in the control bar of MediaElement Player. This plugin also defines a default callback function that will be called everytime the popup button is clicked.Also reference to the mediaelement object is passed as an argument in callback for further processing.The image on the popup button ,text and the callback function all are configurable.  
+MediaElement-Popup is a <code>MediaElement.js</code> plugin that lets you add a __Popup Option__ in the control bar of MediaElement Player. This plugin also defines a default callback function that will be called everytime the popup button is clicked. Also reference to the mediaelement object is passed as an argument in callback for further processing.The image on the popup button ,text and the callback function all are configurable.  
 
 # Demo
 [Click here](http://jsfiddle.net/hkasera/rKtP3/4/) to see a working demo of the plugin.
