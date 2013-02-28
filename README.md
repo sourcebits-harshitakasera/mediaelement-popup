@@ -30,7 +30,7 @@ Thanks to [John Dyer](https://github.com/johndyer), creator of [MediaElement Pla
 
 ### Usage
     $('#player').mediaelementplayer({
-        features: ['playpause','current','progress','duration','popup'] //Adding the feature 'popup' enables this plugin
+        features: ['playpause','current','progress','duration','popup'], //Adding the feature 'popup' enables this plugin
         popupText: "Popup", 
         popupImage: "path to image", 
         popupClick: function (player) { //Override the callback function invoked when user clicks the popup button
